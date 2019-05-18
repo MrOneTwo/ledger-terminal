@@ -1,0 +1,5 @@
+-lib heaps
+-js main.js
+-main Main
+-debug
+-D resourcePath="res"
