@@ -288,6 +288,16 @@
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 308,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "# Ledger terminal"
+			}
 		}
 	],
 	"build_system": "",
@@ -374,6 +384,9 @@
 	],
 	"file_history":
 	[
+		"/C/Users/micie1/.ssh/github_CybercomHP.pub",
+		"/C/Users/micie1/.ssh/github_CyberComHP.pub",
+		"/C/Users/micie1/.ssh/id_rsa.pub",
 		"/C/Users/micie1/gits/haxe_app_1/compile.hxml",
 		"/C/Users/micie1/gits/haxe_app_1/index.html",
 		"/C/Users/micie1/gits/bluewii-host/user_space/hidapiapp/src/main.cpp",
@@ -445,7 +458,6 @@
 		"/C/Users/micie1/gits/mronetwo.github.io_GITLAB/_includes/footer.html",
 		"/C/Users/micie1/gits/hugo/themes/beautifulhugo/data/beautifulhugo/social.toml",
 		"/C/Users/micie1/gits/bluewii-host/user_space/hidapiapp/README.md",
-		"/C/Users/micie1/.ssh/id_rsa.pub",
 		"/C/Users/micie1/gits/mronetwo.github.io_GITLAB/.gitlab-ci.yml",
 		"/C/Users/micie1/gits/mronetwo.github.io_GITLAB/_config.yml",
 		"/C/Users/micie1/gits/mronetwo.github.io_GITLAB/projects/proj-1.md",
@@ -499,13 +511,11 @@
 		"/C/Users/micie1/gits/bluewii-device/Makefile",
 		"/C/Users/micie1/Downloads/excel_pyt/main.py",
 		"/C/Users/micie1/Downloads/excel_pyt/sorted.txt",
-		"/C/Users/micie1/gits/bluewii-device/src/cdcacm.h",
-		"/C/Users/micie1/gits/bluewii-device/libopencm3/lib/usb/usb_private.h",
-		"/C/Users/micie1/Documents/id_rsa.pub"
+		"/C/Users/micie1/gits/bluewii-device/src/cdcacm.h"
 	],
 	"find":
 	{
-		"height": 54.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -666,7 +676,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -710,7 +720,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -726,8 +736,8 @@
 						"selection":
 						[
 							[
-								10933,
-								10933
+								9452,
+								9452
 							]
 						],
 						"settings":
@@ -752,11 +762,55 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 32
+								"xpos": 19
 							}
 						},
 						"translation.x": 0.0,
 						"translation.y": 4510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# Ledger terminal",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 53
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

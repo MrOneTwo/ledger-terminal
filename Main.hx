@@ -302,9 +302,12 @@ class Main extends hxd.App {
   var keypad:Main.Keypad;
   var ledgerEntry:LedgerEntry;
   var ledgerEntryText:h2d.Text;
+  var recordsFile:hxd.res.Resource;
 
   override function init() {
     Res.initEmbed();
+    recordsFile = Res.records;
+    var records_list = recordsFile.entry.getText().split('\n');
 
     var font42 = Res.instruction.build(42);
     var font56 = Res.instruction.build(56);
@@ -326,6 +329,7 @@ class Main extends hxd.App {
     ledgerEntryText = new h2d.Text(font42, s2d);
     ledgerEntryText.x = 100;
     ledgerEntryText.y = 700;
+    ledgerEntry.setTitle(records_list[0]);
     ledgerEntryText.text = ledgerEntry.getContent();
 
     keypad.btn_keypad_0.interactiveObj.onClick = onClickCallback0;
